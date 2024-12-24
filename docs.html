@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=1230px, initial-scale=1.0">
 	<meta name="author" content="neo-wallet.org">
-	<link rel="stylesheet" href="css/style.min.css?_v=20241224134152">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241224173249">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicons/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicons/32x32.webp">
@@ -53,9 +53,6 @@
 							</li>
 							<li class="menu__item">
 								<a href="home.html#technology" class="menu__link" data-goto=".technology" data-goto-header>Technology</a>
-							</li>
-							<li class="menu__item">
-								<a href="home.html#tokens" class="menu__link" data-goto=".tokens" data-goto-header>Tokens</a>
 							</li>
 							<li class="menu__item">
 								<a href="home.html#blocks" class="menu__link" data-goto=".blocks" data-goto-header>Blocks</a>
@@ -149,9 +146,9 @@
 								<li class="docs__li"><strong>Prepare Backup Storage:</strong> Choose a secure method, such as a hardware device or encrypted cloud service, to store your wallet credentials safely. </li>
 							</ul>
 						</div>
-						<div class="docs__note note">
-							<h5>NOTE</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nobis non?</p>
+						<div class="docs__attention attention">
+							<h5>Attention</h5>
+							<p>Remember to backup your private keys before proceeding. Losing access to your keys means losing access to your funds—Neo Wallet cannot recover them for you</p>
 						</div>
 					</article>
 					<article class="docs__article" itemscope itemtype="https://schema.org/Article">
@@ -208,10 +205,6 @@
 								Test the wallet with a small transaction to familiarize yourself with its functionality and interface.
 							</p>
 						</div>
-						<div class="docs__note note">
-							<h5>NOTE</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nobis non?</p>
-						</div>
 					</article>
 					<article class="docs__article" itemscope itemtype="https://schema.org/Article">
 						<h2 class="docs__title title--smaller" itemprop="headline">
@@ -242,6 +235,10 @@
 								<li class="docs__li"><strong>System Hardening:</strong> Use firewalls and updated antivirus software to minimize risks.</li>
 							</ol>
 						</div>
+						<div class="docs__attention attention">
+							<h5>Attention</h5>
+							<p>Ensure that your wallet software is up-to-date. Outdated versions can leave your wallet vulnerable to potential security breaches.</p>
+						</div>
 					</article>
 					<article class="docs__article" itemscope itemtype="https://schema.org/Article">
 						<h2 class="docs__title title--smaller" itemprop="headline">
@@ -256,6 +253,10 @@
 								<li class="docs__li"><strong>Multi-Signature Support:</strong> For organizations or shared wallets, Neo Wallet supports multi-signature transactions, adding an extra layer of security. </li>
 								<li class="docs__li"><strong>Developer Tools:</strong> Advanced users and developers can use Neo Wallet's API to integrate wallet functionality into their own projects or dApps.</li>
 							</ol>
+						</div>
+						<div class="docs__note note">
+							<h5>NOTE</h5>
+							<p>Smart Contract Interaction requires a basic understanding of blockchain functionality. Make sure to explore the Neo developer documentation for better insights before deploying contracts.</p>
 						</div>
 					</article>
 					<article class="docs__article" itemscope itemtype="https://schema.org/Article">
@@ -300,51 +301,9 @@
 								<li class="docs__li">Join the Neo community forums to share experiences, ask questions, and stay informed about ecosystem developments.</li>
 							</ul>
 						</div>
-						<br>
-						<br>
-						<br>
-						<div class="docs__attention attention">
-							<h5>Attention</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias.</p>
-						</div>
-
-						<div class="docs__attention attention">
-							<h5>Attention</h5>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque atque quaerat assumenda veritatis .</p>
-						</div>
-
-						<div class="docs__attention attention">
-							<h5>Attention</h5>
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ipsa soluta quo ratione, perferendis mollitia eos fugiat! Aperiam itaque, tempora rerum, consequatur totam nesciunt vero nemo natus esse, eaque architecto Inventore ipsa soluta quo ratione, perferendis mollitia eos fugiat! Aperiam itaque, tempora rerum, consequatur totam nesciunt vero nemo natus esse, eaque architecto.</p>
-						</div>
 					</article>
 				</div>
 			</div>
-			<section class="blocks blocks-docs" data-watch="navigator">
-				<div class="blocks__container">
-					<div class="blocks__items">
-						<div class="blocks__item">
-							<div class="blocks__item-header">
-								<img src="img/icons/docs.svg" class="blocks__icon" alt="community icon">
-								<h3 class="blocks__title">Lorem ipsum dolor</h3>
-							</div>
-							<div class="blocks__text text">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eos labore elit. Illo eos labore voluptate quaerat!</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eos labore elit. Illo eos labore voluptate quaerat!</p>
-							</div>
-						</div>
-						<div class="blocks__item">
-							<div class="blocks__item-header">
-								<img src="img/icons/hot-dog.svg" class="blocks__icon" alt="ecosystem icon">
-								<h3 class="blocks__title">Hot dog</h3>
-							</div>
-							<div class="blocks__text text">
-								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo minus eligendi incidunt vminus eligendi incidunt sunt dolores ratione Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo minus eligendi incidunt sunt dolores ratione</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -397,7 +356,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241224134152"></script>
+	<script src="js/app.min.js?_v=20241224173249"></script>
 </body>
 
 </html>
