@@ -467,6 +467,10 @@ body::-webkit-scrollbar-thumb:hover {
   width: 1.875rem;
   height: 1.875rem
 }
+.social-footer__item--x img {
+  width: 1.6875rem;
+  height: 1.6875rem
+}
 .menu-footer__list {
   display: flex;
   flex-wrap: wrap;
@@ -863,21 +867,36 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .blocks__links {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: .3125rem 1.25rem
-}
-.blocks__links--02 .blocks__link img {
-  width: 2.8125rem
+  gap: .4375rem 1.25rem
 }
 .blocks__link {
   padding: .625rem
 }
 .blocks__link img {
-  width: 2.5rem;
-  transition: all .15s
+  width: 2.8125rem;
+  transition: all .2s
 }
-.blocks__link:hover img {
+.blocks__link svg {
+  transition: all .2s
+}
+.blocks__link--x img {
+  width: 2.5rem
+}
+.blocks__link-ecosystem--01 img {
+  width: 6.25rem
+}
+.blocks__link-ecosystem--02 img {
+  width: 7.5rem
+}
+.blocks__link-ecosystem--03 svg {
+  width: 5rem;
+  height: 2.1875rem
+}
+.blocks__link:hover img,
+.blocks__link:hover svg {
   -webkit-transform: scale(1.15);
   transform: scale(1.15)
 }
